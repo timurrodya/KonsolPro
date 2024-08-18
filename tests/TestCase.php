@@ -1,0 +1,1 @@
+<?phpnamespace Timurrodya\KonsolPro\Tests;use Orchestra\Testbench\TestCase as TestbenchTestCase;class TestCase extends TestbenchTestCase{    public function setUp(): void    {        parent::setUp();    }    protected function getPackageProviders($app): array    {        return [            'Timurrodya\KonsolPro\KonsolProServiceProvider',        ];    }}

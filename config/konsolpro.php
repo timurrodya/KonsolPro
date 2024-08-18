@@ -1,0 +1,1 @@
+<?phpreturn [    /*     * API token to KonsolPro     */    'token'   => env('KONSOLPRO_TOKEN', ''),    'baseurl' => env('KONSOLPRO_BASE_URL', 'https://api.konsol.pro/'),    'version' => env('KONSOLPRO_VERSION', 'v2'),];

@@ -1,0 +1,1 @@
+<?phpnamespace Timurrodya\KonsolPro\Tests;use Timurrodya\KonsolPro\Facades\KonsolPro;class HealthTest extends TestCase{    public function testHealthTest()    {        $this->assertTrue(            KonsolPro::health()        );    }}
